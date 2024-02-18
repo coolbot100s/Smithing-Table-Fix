@@ -1,0 +1,18 @@
+# The max distance a player can be from the smithing table they're looking at when using /smithing
+maxDistance: 5
+# Whether the smithing table sound should be played when a player successfully uses /smithing
+playSound: true
+# Whether a message should be sent to the player when they use /smithing successfully
+sendSuccessMessages: true
+# Whether a message should be sent to the user when /smithing is used unsuccessfully
+sendFailureMessages: true
+# Whether a player in Creative Mode is required to have and use a Netherite Ingot (in-dependant of the smithing.free permission)
+creativeSmithsFree: true
+
+# Message strings, use '§' to add formatting. https://minecraft.fandom.com/wiki/Formatting_codes
+logger.notPlayer: "Only players may use this command."
+message.noPermission: "§cYou don't have permission to use this command.§r"
+message.noTable: "§cYou must be looking at a smithing table to use this command.§r"
+message.noIngot: "§cYou must have at least 1 Netherite Ingot.§r"
+message.invalidItem: "§cYou cannot upgrade this item. Please hold the item you wish to upgrade in your main hand.§r"
+message.success: "§aYou've successfully upgraded your item.§r"

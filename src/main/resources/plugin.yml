@@ -1,0 +1,23 @@
+name: SmithingTableFix
+author: coolbot100s
+description: Allows the upgrading of diamond items through a simple /smithing command. Created to allow 1.20+ and Geyser players to use smithing table on 1.19.4 and below servers.
+version: '${project.version}'
+main: cool.bot.smithingtablefix.SmithingTableFix
+api-version: 1.16
+
+commands:
+  smithing:
+    description: Allows players to upgrade their diamond gear and equipment to netherite by holding it and looking at a smithing table when using the command.
+    usage: /smithing
+    permission: smithing.use
+
+permissions:
+  smithing.use:
+    description: Allows players to use the /smithing command.
+    default: true
+  smithing.anywhere:
+    description: Allows players to use the /smithing command without looking at a smithing table.
+    default: op
+  smithing.free:
+    description: Allows players to use the /smithing command without needing or consuming a Netherite Ingot.
+    default: false
