@@ -9,7 +9,7 @@ sendFailureMessages: true
 # Whether a player in Creative Mode is required to have and use a Netherite Ingot (in-dependant of the smithing.free permission)
 creativeSmithsFree: true
 
-# Message strings, use '§' to add formatting. https://minecraft.fandom.com/wiki/Formatting_codes
+# Message strings, use '§' to add formatting. https://minecraft.wiki/w/Formatting_codes
 logger.notPlayer: "Only players may use this command."
 message.noPermission: "§cYou don't have permission to use this command.§r"
 message.noTable: "§cYou must be looking at a smithing table to use this command.§r"
